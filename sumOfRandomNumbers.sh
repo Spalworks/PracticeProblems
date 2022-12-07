@@ -1,0 +1,20 @@
+#!/bin/bash
+
+num1=$(( RANDOM % 90 + 10 ))
+num2=$(( RANDOM % 90 + 10 ))
+num3=$(( RANDOM % 90 + 10 ))
+num4=$(( RANDOM % 90 + 10 ))
+num5=$(( RANDOM % 90 + 10 ))
+
+sum=$(( $num1 + $num2 + $num3 + $num4 + $num5 ))
+avg=$(( $sum / 5 ))
+
+echo "Num1 = $num1"
+echo "Num2 = $num2"
+echo "Num3 = $num3"
+echo "Num4 = $num4"
+echo "Num5 = $num5"
+
+echo "Sum of 5 numbers is : $sum"
+echo "Average of 5 numbers is : $avg"
+
